@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Ecole la Racine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/ba6d022746.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <!-- remember to add logo at img src -->
+            <a href="index.html"><img src="" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="classes.html">CLASSES</a> </li>
+                    <li><a href="apply.html">APPLY</a> </li>
+                    <li><a href="contact.html">CONTACT US</a> </li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+            <h1>The Modern world requires modern education!</h1>
+                <p>Located in Nyamata city, Bugesera, Eastern Province <br>
+                Ecole la Ra&ccediline is the answer to every parent's wish about their children's eduction.<br>
+                We are a new school focused on providing our children with a competitive edge on a global scale, not just in Rwanda.
+                From a young age we instill a thirst for knowledge in our students and teach them the fun side of learning through modern teaching techniques.
+                We also encourage them to learn on their own and to use every resource around them.
+                Our student's grow up in a bilingual culture (English & French) which gives them advantage over a lot of other schools.
+                We also familiarize our students with technology from a young age to prepare them for the digital future.
+                Our moto when it comes to technology is "Learn by doing".<br> On top of that, we stress to our students the importance
+                of physical education and exercise, and make it part of their daily routine so that they grow with that mindset.<br>
+                Last but not least we remind our students that they are still kids, <br>they can be whatever they aspire to be and still have fun in the process.
+                </p>
+
+                <div class="core-val">
+                <h3> Our Core Values</h3>
+                <ul>
+                    <li>Core value 1</li>
+                    <li>Core value 2</li>
+                    <li>Core value 3</li>
+                    <li>Core value 4</li>
+                    <li>Core value 5</li>
+                </ul>
+                </div>
+                <a href="" class="center-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="">   <!--add picture for about page-->
+            </div>
+        </div>
+    </section>
+
+<!--FOOTER-->
+    <section class="footer">
+        <h4>We are located at the south entrance of CAFE de Nyamata, in front of Hilton Motel.<br>
+        We welcome you in advance.</h4>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by Jethro Jay</p>
+    </section>
+
+<!--JavaScript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
