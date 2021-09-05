@@ -6,9 +6,9 @@
 
     $email_from = 'info@ecoleracine.com';
     $email_subject = 'Message from our contact page';
-    $email_body = "Sender: $name.\n".
-                    "Sender Email: $visitor_email.\n".
-                    "Subject: $subject.\n".
+    $email_body = "Sender: $name.\n\n".
+                    "Sender Email: $visitor_email.\n\n".
+                    "Subject: $subject.\n\n".
                      "Message: $message.\n";
     $to = 'jethrobizumuremyi@gmail.com';
     $headers = "From: $email_from \r\n";

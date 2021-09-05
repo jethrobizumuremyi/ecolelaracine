@@ -9,12 +9,12 @@ $gender = $_POST['gender'];
 
 $email_from = 'application@ecolelaracine.com';
 $email_subject = 'New Application';
-$email_body = "Applicant: $name.\n".
-                "Applicant's email: $user_email.\n".
-                "Applicant's Phone Number: $user_number".
-                "Student name: $child_name.\n".
-                "Desired start date: $start_date".
-                "Grade Level: $grade_level.\n".
+$email_body = "Applicant: $name.\n\n".
+                "Applicant's email: $user_email.\n\n".
+                "Applicant's Phone Number: $user_number\n\n".
+                "Student name: $child_name.\n\n".
+                "Desired start date: $start_date\n\n".
+                "Grade Level: $grade_level.\n\n".
                 "Gender: $gender.\n";
 $to = 'jethrobizumuremyi@gmail.com';
 $headers = "From: $email_from \r\n";
