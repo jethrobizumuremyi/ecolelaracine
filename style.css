@@ -523,7 +523,24 @@ form .button input:hover{
     box-sizing: border-box;
 }
 
-
+table{
+    table-layout: fixed;
+    margin-top: 20px;
+    position: center;
+    border-collapse: collapse;
+    border: 5px solid white;
+    overflow-y:scroll;
+    height:250px;
+    word-wrap: anywhere;
+    font-size: 12px;
+}
+table td{
+    color: #cccccc;
+}
+table p{
+    color: #cccccc;
+    font-size: 13px;
+}
 
 
 

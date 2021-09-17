@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Ecole la Racine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/ba6d022746.js" crossorigin="anonymous"></script>
+</head>
+<body style="background:linear-gradient(-135deg, midnightblue,darkolivegreen) ">
+<section class="">
+    <nav>
+        <!-- remember to add logo at img src -->
+        <a href="index.html"><img src="" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="about.html">ABOUT</a> </li>
+                <li><a href="classes.html">CLASSES</a> </li>
+                <li><a href="prices.html">IBICIRO</a> </li>
+                <li><a href="apply.html">APPLY</a> </li>
+                <li><a href="contact.html">CONTACT US</a> </li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1 style="text-align: center; color: #cccccc">SCHOOL FEES</h1>
+</section>
+
+
+<table style="width: 95%; text-align: center; position: center; margin-right: auto; margin-left: auto; word-wrap: break-word" border="1" >
+    <tbody>
+    <tr>
+        <td rowspan="2" ><p>DESCRIPTION</p></td>
+        <td rowspan="2" ><p>MINERVAL</p></td>
+        <td rowspan="2" ><p>IFUNGURO</p></td>
+        <td colspan="4" ><p>UNIFORME</p></td>
+        <td rowspan="2" ><p>IBIKORESHO</p></td>
+        <td rowspan="2" ><p>ASSURANCE</p></td>
+        <td rowspan="2" ><p>MASKS</p></td>
+        <td rowspan="2" ><p>KWIYANDIKISHA</p></td>
+    </tr>
+    <tr>
+        <td><p>ORDINAIRE</p></td>
+        <td><p>SPORT</p></td>
+        <td><p>UMUPIRA</p></td>
+        <td><p>AMASOGISI<br>2 PAIRES</p></td>
+    </tr>
+    <tr>
+        <td><p>PRIX (RWF)</p></td>
+        <td><p>50,000</p></td>
+        <td><p>40,000</p></td>
+        <td><p>10,000</p></td>
+        <td><p>8,000</p></td>
+        <td><p>8,000</p></td>
+        <td><p>6,000</p></td>
+        <td><p>20,000</p></td>
+        <td><p>1,000</p></td>
+        <td><p>3,400</p></td>
+        <td><p>3,000</p></td>
+    </tr>
+    </tbody>
+</table>
+
+<table style="width: 80%; border-style: solid; margin-left: auto; margin-right: auto " border="1" width="101.87%">
+    <tbody>
+    <tr>
+        <td style="width: 103.115%;" colspan="4" width="100%">
+            <p style="text-align: center">TRANSPORT</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 19%;" width="19%">
+            <p>TRAJET</p>
+        </td>
+        <td style="width: 21%;" width="21%">
+            <p>NYAMATA - KARIYERI</p>
+            <p>NYAMATA - GAHEMBE</p>
+            <p>NYAMATA - MURAMBI</p>
+        </td>
+        <td style="width: 24%;" width="24%">
+            <p>NYAMATA - ARETE</p>
+            <p>NYAMATA - MAYANGE 1</p>
+        </td>
+        <td style="width: 39.1151%;" width="33%">
+            <p>NYAMATA - KANZEZE &ndash; KARUMUNA</p>
+            <p>NYAMATA &ndash; MAYANGE B &ndash; MBYO</p>
+            <p>NYAMATA &ndash; KWA CAFE</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 19%;" width="19%">
+            <p>PRIX (RWF) / IGIHEMBWE</p>
+        </td>
+        <td style="width: 21%;" width="21%">
+            <p>45,000</p>
+        </td>
+        <td style="width: 24%;" width="24%">
+            <p>51,000</p>
+        </td>
+        <td style="width: 39.1151%;" width="33%">
+            <p>60,000</p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+
+<section class="footer">
+    <h4>We are located at the south entrance of CAFE de Nyamata, in front of Hilton Motel.<br>
+        We welcome you in advance.</h4>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by Jethro Jay</p>
+</section>
+
+<!--JavaScript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
